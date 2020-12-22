@@ -1,5 +1,6 @@
 name: wasp-os binary distribution
-
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 on:
   push:
     branches: [ master ]
