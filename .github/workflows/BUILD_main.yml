@@ -5,7 +5,9 @@
 
 # Name of this Workflow
 name: Build PineTime Firmware
-
+env:
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+  
 # When to run this Workflow...
 on:
 
